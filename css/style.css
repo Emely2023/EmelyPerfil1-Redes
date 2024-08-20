@@ -1125,6 +1125,7 @@ a:focus {
   border-radius: 100%;
   margin: 0 2.5px;
   font-size: 18px;
+  position:relative;
 }
 
 .footer_section .footer_social a:hover {
@@ -1143,5 +1144,11 @@ a:focus {
 
 .footer_section .footer-info p a {
   color: inherit;
+}
+
+.footer_section {
+  position: relative;
+  z-index: 1; /
+  margin-top: 50px; 
 }
 /*# sourceMappingURL=style.css.map */
